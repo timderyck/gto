@@ -6,7 +6,7 @@ body {background: #1b2028; font-family: Arial; font-size: 14px; color: #969696;}
 img {border: none;}
 input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -webkit-appearance: none;}
 
-#header {height: 50px; line-height: 50px; background: #33383d; font-family: Ramsina, Arial; font-size: 24px; color: #fff; text-align: center;}
+#splash {position: fixed; width: 100%; height: 100%; background: #1b2028;}
 #page {width: 426px; margin: 0 auto;}
 #position {margin: 50px 0 0 0;}
 #position #position_title {font-weight: bold;}
@@ -43,6 +43,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
