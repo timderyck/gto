@@ -17,9 +17,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #scenario {margin: 25px 0 0 0;}
 #scenario #scenario_title {font-weight: bold;}
 #scenario #scenario_filters {margin: 5px 0 0 0; overflow: auto;}
-#scenario #scenario_filters a {display: block; float: left; height: 38px; line-height: 38px; background: #343842; color: #8e9ab7; text-decoration: none; text-align: center; border-radius: 6px;}
+#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; color: #8e9ab7; text-decoration: none;}
 #scenario #scenario_filters a#scenario_filters_rfi {border-bottom: #666 solid 1px;}
-#scenario #scenario_filters .filter_margin {margin: 0 2% 0 0;}
+#scenario #scenario_filters .filter_margin {margin: 0 20px 0 0;}
 #title {margin: 40px 0 0 0; color: #ddd;}
 #title_mp, #title_co, #title_bu, #title_sb, #title_bb {display: none;}
 #chart {overflow: auto; width: 426px; margin: 20px 0 0 0;}
@@ -43,6 +43,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
