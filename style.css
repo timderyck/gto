@@ -26,9 +26,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
 #chart .nomargin {margin: 0 0 3px 0;}
-#chart .pink {background: #995379; color: #fff;}
-#chart .blue {background: #3d6b93; color: #fff;}
-#chart .green {background: #79a65a; color: #fff;}
+#chart .pink {background: #b548c6; color: #fff;}
+#chart .blue {background: #32a7e2; color: #fff;}
+#chart .green {background: #22b07d; color: #fff;}
 #info {width: 426px; margin: 20px 0 0 0;}
 #info #info_hands {text-align: right;}
 #info #info_legend {margin: 5px 0 0 0; text-align: right;}
@@ -42,6 +42,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
