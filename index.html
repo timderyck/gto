@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Crush The Flop</title>
+	<meta name="description" content="Digital transformation from strategy to execution">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="/crushtheflop/style.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="/crushtheflop/images/favicon.png"  rel="icon">
+	<script src="/crushtheflop/functions.js"></script>
+</head>
+<body>
+	<div id="page">
+		<div id="position">
+			<div id="position_title">Position:</div>
+			<div id="position_filters">
+				<a id="position_filter_ep" href="javascript:void();" title="" onclick="changePosition('ep');" class="filter_margin">EP</a>
+				<a id="position_filter_mp" href="javascript:void();" title="" onclick="changePosition('mp');" class="filter_margin">MP</a>
+				<a id="position_filter_co" href="javascript:void();" title="" onclick="changePosition('co');" class="filter_margin">CO</a>
+				<a id="position_filter_bu" href="javascript:void();" title="" onclick="changePosition('bu');" class="filter_margin">BU</a>
+				<a id="position_filter_sb" href="javascript:void();" title="" onclick="changePosition('sb');" class="filter_margin">SB</a>
+				<a id="position_filter_bb" href="javascript:void();" title="" onclick="changePosition('bb');">BB</a>
+			</div>
+		</div>
+		<div id="scenario">
+			<div id="scenario_title">Scenario:</div>
+			<div id="scenario_filters">
+				<a id="scenario_filters_rfi" href="javascript:void();" title="" onclick="" class="filter_margin">RFI</a>
+				<a id="scenario_filters_facingrfi" href="javascript:void();" title="" onclick="">Facing RFI</a>
+			</div>
+		</div>
+		<div id="title">
+			<div id="title_ep">Preflop chart for Early Position</div>
+			<div id="title_mp">Preflop chart for Middle Position</div>
+			<div id="title_co">Preflop chart for Cut-Off</div>
+			<div id="title_bu">Preflop chart for Button</div>
+			<div id="title_sb">Preflop chart for Small Blind</div>
+			<div id="title_bb">Preflop chart for Big Blind</div>
+		</div>
+		<div id="chart">
+			<div id="chart_ep">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin pink">AQs</div>
+				<div id="ep_1_4" class="box margin pink">AJs</div>
+				<div id="ep_1_5" class="box margin pink">ATs</div>
+				<div id="ep_1_6" class="box margin pink">A9s</div>
+				<div id="ep_1_7" class="box margin pink">A8s</div>
+				<div id="ep_1_8" class="box margin pink">A7s</div>
+				<div id="ep_1_9" class="box margin pink">A6s</div>
+				<div id="ep_1_10" class="box margin pink">A5s</div>
+				<div id="ep_1_11" class="box margin pink">A4s</div>
+				<div id="ep_1_12" class="box margin pink">A3s</div>
+				<div id="ep_1_13" class="box nomargin pink">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin pink">KQs</div>
+				<div id="ep_2_4" class="box margin pink">KJs</div>
+				<div id="ep_2_5" class="box margin pink">KTs</div>
+				<div id="ep_2_6" class="box margin pink">K9s</div>
+				<div id="ep_2_7" class="box margin pink">K8s</div>
+				<div id="ep_2_8" class="box margin pink">K7s</div>
+				<div id="ep_2_9" class="box margin blue">K6s</div>
+				<div id="ep_2_10" class="box margin blue">K5s</div>
+				<div id="ep_2_11" class="box margin">K4s</div>
+				<div id="ep_2_12" class="box margin">K3s</div>
+				<div id="ep_2_13" class="box nomargin">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin pink">AQo</div>
+				<div id="ep_3_2" class="box margin pink">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin pink">QJs</div>
+				<div id="ep_3_5" class="box margin pink">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin">Q8s</div>
+				<div id="ep_3_8" class="box margin">Q7s</div>
+				<div id="ep_3_9" class="box margin">Q6s</div>
+				<div id="ep_3_10" class="box margin">Q5s</div>
+				<div id="ep_3_11" class="box margin">Q4s</div>
+				<div id="ep_3_12" class="box margin">Q3s</div>
+				<div id="ep_3_13" class="box nomargin">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin pink">AJo</div>
+				<div id="ep_4_2" class="box margin blue">KJo</div>
+				<div id="ep_4_3" class="box margin">QJo</div>
+				<div id="ep_4_4" class="box margin pink">JJ</div>
+				<div id="ep_4_5" class="box margin pink">JTs</div>
+				<div id="ep_4_6" class="box margin">J9s</div>
+				<div id="ep_4_7" class="box margin">J8s</div>
+				<div id="ep_4_8" class="box margin">J7s</div>
+				<div id="ep_4_9" class="box margin">J6s</div>
+				<div id="ep_4_10" class="box margin">J5s</div>
+				<div id="ep_4_11" class="box margin">J4s</div>
+				<div id="ep_4_12" class="box margin">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin blue">ATo</div>
+				<div id="ep_5_2" class="box margin">KTo</div>
+				<div id="ep_5_3" class="box margin">QTo</div>
+				<div id="ep_5_4" class="box margin">JTo</div>
+				<div id="ep_5_5" class="box margin pink">TT</div>
+				<div id="ep_5_6" class="box margin pink">T9s</div>
+				<div id="ep_5_7" class="box margin">T8s</div>
+				<div id="ep_5_8" class="box margin">T7s</div>
+				<div id="ep_5_9" class="box margin">T6s</div>
+				<div id="ep_5_10" class="box margin">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin">A9o</div>
+				<div id="ep_6_2" class="box margin">K9o</div>
+				<div id="ep_6_3" class="box margin">Q9o</div>
+				<div id="ep_6_4" class="box margin">J9o</div>
+				<div id="ep_6_5" class="box margin">T9o</div>
+				<div id="ep_6_6" class="box margin pink">99</div>
+				<div id="ep_6_7" class="box margin">98s</div>
+				<div id="ep_6_8" class="box margin">97s</div>
+				<div id="ep_6_9" class="box margin">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin">A8o</div>
+				<div id="ep_7_2" class="box margin">K8o</div>
+				<div id="ep_7_3" class="box margin">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin">T8o</div>
+				<div id="ep_7_6" class="box margin">98o</div>
+				<div id="ep_7_7" class="box margin pink">88</div>
+				<div id="ep_7_8" class="box margin">87s</div>
+				<div id="ep_7_9" class="box margin">86s</div>
+				<div id="ep_7_10" class="box margin">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin">A7o</div>
+				<div id="ep_8_2" class="box margin">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin pink">77</div>
+				<div id="ep_8_9" class="box margin">76s</div>
+				<div id="ep_8_10" class="box margin">75s</div>
+				<div id="ep_8_11" class="box margin">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin blue">66</div>
+				<div id="ep_9_10" class="box margin">65s</div>
+				<div id="ep_9_11" class="box margin">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin">55</div>
+				<div id="ep_10_11" class="box margin">54s</div>
+				<div id="ep_10_12" class="box margin">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin">22</div>
+			</div>
+			<div id="chart_mp">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin pink">AQs</div>
+				<div id="ep_1_4" class="box margin pink">AJs</div>
+				<div id="ep_1_5" class="box margin pink">ATs</div>
+				<div id="ep_1_6" class="box margin pink">A9s</div>
+				<div id="ep_1_7" class="box margin pink">A8s</div>
+				<div id="ep_1_8" class="box margin pink">A7s</div>
+				<div id="ep_1_9" class="box margin pink">A6s</div>
+				<div id="ep_1_10" class="box margin pink">A5s</div>
+				<div id="ep_1_11" class="box margin pink">A4s</div>
+				<div id="ep_1_12" class="box margin pink">A3s</div>
+				<div id="ep_1_13" class="box nomargin pink">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin pink">KQs</div>
+				<div id="ep_2_4" class="box margin pink">KJs</div>
+				<div id="ep_2_5" class="box margin pink">KTs</div>
+				<div id="ep_2_6" class="box margin pink">K9s</div>
+				<div id="ep_2_7" class="box margin pink">K8s</div>
+				<div id="ep_2_8" class="box margin pink">K7s</div>
+				<div id="ep_2_9" class="box margin pink">K6s</div>
+				<div id="ep_2_10" class="box margin blue">K5s</div>
+				<div id="ep_2_11" class="box margin blue">K4s</div>
+				<div id="ep_2_12" class="box margin">K3s</div>
+				<div id="ep_2_13" class="box nomargin">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin pink">AQo</div>
+				<div id="ep_3_2" class="box margin pink">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin pink">QJs</div>
+				<div id="ep_3_5" class="box margin pink">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin">Q8s</div>
+				<div id="ep_3_8" class="box margin">Q7s</div>
+				<div id="ep_3_9" class="box margin">Q6s</div>
+				<div id="ep_3_10" class="box margin">Q5s</div>
+				<div id="ep_3_11" class="box margin">Q4s</div>
+				<div id="ep_3_12" class="box margin">Q3s</div>
+				<div id="ep_3_13" class="box nomargin">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin pink">AJo</div>
+				<div id="ep_4_2" class="box margin pink">KJo</div>
+				<div id="ep_4_3" class="box margin pink">QJo</div>
+				<div id="ep_4_4" class="box margin pink">JJ</div>
+				<div id="ep_4_5" class="box margin pink">JTs</div>
+				<div id="ep_4_6" class="box margin pink">J9s</div>
+				<div id="ep_4_7" class="box margin">J8s</div>
+				<div id="ep_4_8" class="box margin">J7s</div>
+				<div id="ep_4_9" class="box margin">J6s</div>
+				<div id="ep_4_10" class="box margin">J5s</div>
+				<div id="ep_4_11" class="box margin">J4s</div>
+				<div id="ep_4_12" class="box margin">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin pink">ATo</div>
+				<div id="ep_5_2" class="box margin pink">KTo</div>
+				<div id="ep_5_3" class="box margin blue">QTo</div>
+				<div id="ep_5_4" class="box margin">JTo</div>
+				<div id="ep_5_5" class="box margin pink">TT</div>
+				<div id="ep_5_6" class="box margin pink">T9s</div>
+				<div id="ep_5_7" class="box margin">T8s</div>
+				<div id="ep_5_8" class="box margin">T7s</div>
+				<div id="ep_5_9" class="box margin">T6s</div>
+				<div id="ep_5_10" class="box margin">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin blue">A9o</div>
+				<div id="ep_6_2" class="box margin">K9o</div>
+				<div id="ep_6_3" class="box margin">Q9o</div>
+				<div id="ep_6_4" class="box margin">J9o</div>
+				<div id="ep_6_5" class="box margin">T9o</div>
+				<div id="ep_6_6" class="box margin pink">99</div>
+				<div id="ep_6_7" class="box margin">98s</div>
+				<div id="ep_6_8" class="box margin">97s</div>
+				<div id="ep_6_9" class="box margin">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin">A8o</div>
+				<div id="ep_7_2" class="box margin">K8o</div>
+				<div id="ep_7_3" class="box margin">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin">T8o</div>
+				<div id="ep_7_6" class="box margin">98o</div>
+				<div id="ep_7_7" class="box margin pink">88</div>
+				<div id="ep_7_8" class="box margin">87s</div>
+				<div id="ep_7_9" class="box margin">86s</div>
+				<div id="ep_7_10" class="box margin">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin">A7o</div>
+				<div id="ep_8_2" class="box margin">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin pink">77</div>
+				<div id="ep_8_9" class="box margin">76s</div>
+				<div id="ep_8_10" class="box margin">75s</div>
+				<div id="ep_8_11" class="box margin">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin blue">66</div>
+				<div id="ep_9_10" class="box margin">65s</div>
+				<div id="ep_9_11" class="box margin">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin blue">55</div>
+				<div id="ep_10_11" class="box margin">54s</div>
+				<div id="ep_10_12" class="box margin">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin">22</div>
+			</div>
+			<div id="chart_co">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin pink">AQs</div>
+				<div id="ep_1_4" class="box margin pink">AJs</div>
+				<div id="ep_1_5" class="box margin pink">ATs</div>
+				<div id="ep_1_6" class="box margin pink">A9s</div>
+				<div id="ep_1_7" class="box margin pink">A8s</div>
+				<div id="ep_1_8" class="box margin pink">A7s</div>
+				<div id="ep_1_9" class="box margin pink">A6s</div>
+				<div id="ep_1_10" class="box margin pink">A5s</div>
+				<div id="ep_1_11" class="box margin pink">A4s</div>
+				<div id="ep_1_12" class="box margin pink">A3s</div>
+				<div id="ep_1_13" class="box nomargin pink">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin pink">KQs</div>
+				<div id="ep_2_4" class="box margin pink">KJs</div>
+				<div id="ep_2_5" class="box margin pink">KTs</div>
+				<div id="ep_2_6" class="box margin pink">K9s</div>
+				<div id="ep_2_7" class="box margin pink">K8s</div>
+				<div id="ep_2_8" class="box margin pink">K7s</div>
+				<div id="ep_2_9" class="box margin pink">K6s</div>
+				<div id="ep_2_10" class="box margin pink">K5s</div>
+				<div id="ep_2_11" class="box margin pink">K4s</div>
+				<div id="ep_2_12" class="box margin blue">K3s</div>
+				<div id="ep_2_13" class="box nomargin blue">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin pink">AQo</div>
+				<div id="ep_3_2" class="box margin pink">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin pink">QJs</div>
+				<div id="ep_3_5" class="box margin pink">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin pink">Q8s</div>
+				<div id="ep_3_8" class="box margin blue">Q7s</div>
+				<div id="ep_3_9" class="box margin blue">Q6s</div>
+				<div id="ep_3_10" class="box margin">Q5s</div>
+				<div id="ep_3_11" class="box margin">Q4s</div>
+				<div id="ep_3_12" class="box margin">Q3s</div>
+				<div id="ep_3_13" class="box nomargin">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin pink">AJo</div>
+				<div id="ep_4_2" class="box margin pink">KJo</div>
+				<div id="ep_4_3" class="box margin pink">QJo</div>
+				<div id="ep_4_4" class="box margin pink">JJ</div>
+				<div id="ep_4_5" class="box margin pink">JTs</div>
+				<div id="ep_4_6" class="box margin pink">J9s</div>
+				<div id="ep_4_7" class="box margin pink">J8s</div>
+				<div id="ep_4_8" class="box margin blue">J7s</div>
+				<div id="ep_4_9" class="box margin">J6s</div>
+				<div id="ep_4_10" class="box margin">J5s</div>
+				<div id="ep_4_11" class="box margin">J4s</div>
+				<div id="ep_4_12" class="box margin">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin pink">ATo</div>
+				<div id="ep_5_2" class="box margin pink">KTo</div>
+				<div id="ep_5_3" class="box margin pink">QTo</div>
+				<div id="ep_5_4" class="box margin pink">JTo</div>
+				<div id="ep_5_5" class="box margin pink">TT</div>
+				<div id="ep_5_6" class="box margin pink">T9s</div>
+				<div id="ep_5_7" class="box margin pink">T8s</div>
+				<div id="ep_5_8" class="box margin">T7s</div>
+				<div id="ep_5_9" class="box margin">T6s</div>
+				<div id="ep_5_10" class="box margin">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin pink">A9o</div>
+				<div id="ep_6_2" class="box margin">K9o</div>
+				<div id="ep_6_3" class="box margin">Q9o</div>
+				<div id="ep_6_4" class="box margin">J9o</div>
+				<div id="ep_6_5" class="box margin">T9o</div>
+				<div id="ep_6_6" class="box margin pink">99</div>
+				<div id="ep_6_7" class="box margin pink">98s</div>
+				<div id="ep_6_8" class="box margin">97s</div>
+				<div id="ep_6_9" class="box margin">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin pink">A8o</div>
+				<div id="ep_7_2" class="box margin">K8o</div>
+				<div id="ep_7_3" class="box margin">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin">T8o</div>
+				<div id="ep_7_6" class="box margin">98o</div>
+				<div id="ep_7_7" class="box margin pink">88</div>
+				<div id="ep_7_8" class="box margin pink">87s</div>
+				<div id="ep_7_9" class="box margin">86s</div>
+				<div id="ep_7_10" class="box margin">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin">A7o</div>
+				<div id="ep_8_2" class="box margin">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin pink">77</div>
+				<div id="ep_8_9" class="box margin pink">76s</div>
+				<div id="ep_8_10" class="box margin">75s</div>
+				<div id="ep_8_11" class="box margin">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin pink">66</div>
+				<div id="ep_9_10" class="box margin blue">65s</div>
+				<div id="ep_9_11" class="box margin">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin blue">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin pink">55</div>
+				<div id="ep_10_11" class="box margin blue">54s</div>
+				<div id="ep_10_12" class="box margin">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin pink">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin blue">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin">22</div>
+			</div>
+			<div id="chart_bu">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin pink">AQs</div>
+				<div id="ep_1_4" class="box margin pink">AJs</div>
+				<div id="ep_1_5" class="box margin pink">ATs</div>
+				<div id="ep_1_6" class="box margin pink">A9s</div>
+				<div id="ep_1_7" class="box margin pink">A8s</div>
+				<div id="ep_1_8" class="box margin pink">A7s</div>
+				<div id="ep_1_9" class="box margin pink">A6s</div>
+				<div id="ep_1_10" class="box margin pink">A5s</div>
+				<div id="ep_1_11" class="box margin pink">A4s</div>
+				<div id="ep_1_12" class="box margin pink">A3s</div>
+				<div id="ep_1_13" class="box nomargin pink">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin pink">KQs</div>
+				<div id="ep_2_4" class="box margin pink">KJs</div>
+				<div id="ep_2_5" class="box margin pink">KTs</div>
+				<div id="ep_2_6" class="box margin pink">K9s</div>
+				<div id="ep_2_7" class="box margin pink">K8s</div>
+				<div id="ep_2_8" class="box margin pink">K7s</div>
+				<div id="ep_2_9" class="box margin pink">K6s</div>
+				<div id="ep_2_10" class="box margin pink">K5s</div>
+				<div id="ep_2_11" class="box margin pink">K4s</div>
+				<div id="ep_2_12" class="box margin pink">K3s</div>
+				<div id="ep_2_13" class="box nomargin pink">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin pink">AQo</div>
+				<div id="ep_3_2" class="box margin pink">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin pink">QJs</div>
+				<div id="ep_3_5" class="box margin pink">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin pink">Q8s</div>
+				<div id="ep_3_8" class="box margin pink">Q7s</div>
+				<div id="ep_3_9" class="box margin pink">Q6s</div>
+				<div id="ep_3_10" class="box margin pink">Q5s</div>
+				<div id="ep_3_11" class="box margin pink">Q4s</div>
+				<div id="ep_3_12" class="box margin pink">Q3s</div>
+				<div id="ep_3_13" class="box nomargin blue">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin pink">AJo</div>
+				<div id="ep_4_2" class="box margin pink">KJo</div>
+				<div id="ep_4_3" class="box margin pink">QJo</div>
+				<div id="ep_4_4" class="box margin pink">JJ</div>
+				<div id="ep_4_5" class="box margin pink">JTs</div>
+				<div id="ep_4_6" class="box margin pink">J9s</div>
+				<div id="ep_4_7" class="box margin pink">J8s</div>
+				<div id="ep_4_8" class="box margin pink">J7s</div>
+				<div id="ep_4_9" class="box margin pink">J6s</div>
+				<div id="ep_4_10" class="box margin pink">J5s</div>
+				<div id="ep_4_11" class="box margin blue">J4s</div>
+				<div id="ep_4_12" class="box margin blue">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin pink">ATo</div>
+				<div id="ep_5_2" class="box margin pink">KTo</div>
+				<div id="ep_5_3" class="box margin pink">QTo</div>
+				<div id="ep_5_4" class="box margin pink">JTo</div>
+				<div id="ep_5_5" class="box margin pink">TT</div>
+				<div id="ep_5_6" class="box margin pink">T9s</div>
+				<div id="ep_5_7" class="box margin pink">T8s</div>
+				<div id="ep_5_8" class="box margin pink">T7s</div>
+				<div id="ep_5_9" class="box margin pink">T6s</div>
+				<div id="ep_5_10" class="box margin blue">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin pink">A9o</div>
+				<div id="ep_6_2" class="box margin pink">K9o</div>
+				<div id="ep_6_3" class="box margin pink">Q9o</div>
+				<div id="ep_6_4" class="box margin pink">J9o</div>
+				<div id="ep_6_5" class="box margin pink">T9o</div>
+				<div id="ep_6_6" class="box margin pink">99</div>
+				<div id="ep_6_7" class="box margin pink">98s</div>
+				<div id="ep_6_8" class="box margin pink">97s</div>
+				<div id="ep_6_9" class="box margin pink">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin pink">A8o</div>
+				<div id="ep_7_2" class="box margin pink">K8o</div>
+				<div id="ep_7_3" class="box margin blue">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin blue">T8o</div>
+				<div id="ep_7_6" class="box margin blue">98o</div>
+				<div id="ep_7_7" class="box margin pink">88</div>
+				<div id="ep_7_8" class="box margin pink">87s</div>
+				<div id="ep_7_9" class="box margin pink">86s</div>
+				<div id="ep_7_10" class="box margin blue">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin pink">A7o</div>
+				<div id="ep_8_2" class="box margin blue">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin pink">77</div>
+				<div id="ep_8_9" class="box margin pink">76s</div>
+				<div id="ep_8_10" class="box margin pink">75s</div>
+				<div id="ep_8_11" class="box margin blue">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin pink">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin pink">66</div>
+				<div id="ep_9_10" class="box margin pink">65s</div>
+				<div id="ep_9_11" class="box margin blue">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin pink">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin pink">55</div>
+				<div id="ep_10_11" class="box margin pink">54s</div>
+				<div id="ep_10_12" class="box margin blue">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin pink">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin pink">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin pink">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin pink">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin blue">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin pink">22</div>
+			</div>
+			<div id="chart_sb">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin pink">AQs</div>
+				<div id="ep_1_4" class="box margin pink">AJs</div>
+				<div id="ep_1_5" class="box margin pink">ATs</div>
+				<div id="ep_1_6" class="box margin pink">A9s</div>
+				<div id="ep_1_7" class="box margin pink">A8s</div>
+				<div id="ep_1_8" class="box margin pink">A7s</div>
+				<div id="ep_1_9" class="box margin pink">A6s</div>
+				<div id="ep_1_10" class="box margin pink">A5s</div>
+				<div id="ep_1_11" class="box margin pink">A4s</div>
+				<div id="ep_1_12" class="box margin pink">A3s</div>
+				<div id="ep_1_13" class="box nomargin pink">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin pink">KQs</div>
+				<div id="ep_2_4" class="box margin pink">KJs</div>
+				<div id="ep_2_5" class="box margin pink">KTs</div>
+				<div id="ep_2_6" class="box margin pink">K9s</div>
+				<div id="ep_2_7" class="box margin pink">K8s</div>
+				<div id="ep_2_8" class="box margin pink">K7s</div>
+				<div id="ep_2_9" class="box margin pink">K6s</div>
+				<div id="ep_2_10" class="box margin pink">K5s</div>
+				<div id="ep_2_11" class="box margin pink">K4s</div>
+				<div id="ep_2_12" class="box margin pink">K3s</div>
+				<div id="ep_2_13" class="box nomargin pink">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin pink">AQo</div>
+				<div id="ep_3_2" class="box margin pink">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin pink">QJs</div>
+				<div id="ep_3_5" class="box margin pink">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin pink">Q8s</div>
+				<div id="ep_3_8" class="box margin pink">Q7s</div>
+				<div id="ep_3_9" class="box margin pink">Q6s</div>
+				<div id="ep_3_10" class="box margin pink">Q5s</div>
+				<div id="ep_3_11" class="box margin pink">Q4s</div>
+				<div id="ep_3_12" class="box margin pink">Q3s</div>
+				<div id="ep_3_13" class="box nomargin pink">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin pink">AJo</div>
+				<div id="ep_4_2" class="box margin pink">KJo</div>
+				<div id="ep_4_3" class="box margin pink">QJo</div>
+				<div id="ep_4_4" class="box margin pink">JJ</div>
+				<div id="ep_4_5" class="box margin pink">JTs</div>
+				<div id="ep_4_6" class="box margin pink">J9s</div>
+				<div id="ep_4_7" class="box margin pink">J8s</div>
+				<div id="ep_4_8" class="box margin pink">J7s</div>
+				<div id="ep_4_9" class="box margin pink">J6s</div>
+				<div id="ep_4_10" class="box margin pink">J5s</div>
+				<div id="ep_4_11" class="box margin blue">J4s</div>
+				<div id="ep_4_12" class="box margin blue">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin pink">ATo</div>
+				<div id="ep_5_2" class="box margin pink">KTo</div>
+				<div id="ep_5_3" class="box margin pink">QTo</div>
+				<div id="ep_5_4" class="box margin pink">JTo</div>
+				<div id="ep_5_5" class="box margin pink">TT</div>
+				<div id="ep_5_6" class="box margin pink">T9s</div>
+				<div id="ep_5_7" class="box margin pink">T8s</div>
+				<div id="ep_5_8" class="box margin pink">T7s</div>
+				<div id="ep_5_9" class="box margin pink">T6s</div>
+				<div id="ep_5_10" class="box margin blue">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin pink">A9o</div>
+				<div id="ep_6_2" class="box margin pink">K9o</div>
+				<div id="ep_6_3" class="box margin pink">Q9o</div>
+				<div id="ep_6_4" class="box margin pink">J9o</div>
+				<div id="ep_6_5" class="box margin pink">T9o</div>
+				<div id="ep_6_6" class="box margin pink">99</div>
+				<div id="ep_6_7" class="box margin pink">98s</div>
+				<div id="ep_6_8" class="box margin pink">97s</div>
+				<div id="ep_6_9" class="box margin pink">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin pink">A8o</div>
+				<div id="ep_7_2" class="box margin pink">K8o</div>
+				<div id="ep_7_3" class="box margin blue">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin blue">T8o</div>
+				<div id="ep_7_6" class="box margin blue">98o</div>
+				<div id="ep_7_7" class="box margin pink">88</div>
+				<div id="ep_7_8" class="box margin pink">87s</div>
+				<div id="ep_7_9" class="box margin pink">86s</div>
+				<div id="ep_7_10" class="box margin blue">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin pink">A7o</div>
+				<div id="ep_8_2" class="box margin blue">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin pink">77</div>
+				<div id="ep_8_9" class="box margin pink">76s</div>
+				<div id="ep_8_10" class="box margin pink">75s</div>
+				<div id="ep_8_11" class="box margin blue">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin pink">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin pink">66</div>
+				<div id="ep_9_10" class="box margin pink">65s</div>
+				<div id="ep_9_11" class="box margin pink">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin pink">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin pink">55</div>
+				<div id="ep_10_11" class="box margin pink">54s</div>
+				<div id="ep_10_12" class="box margin blue">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin pink">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin pink">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin pink">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin pink">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin pink">22</div>
+			</div>
+			<div id="chart_bb">
+				<!-- ROW 1 -->
+				<div id="ep_1_1" class="box margin pink">AA</div>
+				<div id="ep_1_2" class="box margin pink">AKs</div>
+				<div id="ep_1_3" class="box margin green">AQs</div>
+				<div id="ep_1_4" class="box margin green">AJs</div>
+				<div id="ep_1_5" class="box margin green">ATs</div>
+				<div id="ep_1_6" class="box margin green">A9s</div>
+				<div id="ep_1_7" class="box margin green">A8s</div>
+				<div id="ep_1_8" class="box margin green">A7s</div>
+				<div id="ep_1_9" class="box margin green">A6s</div>
+				<div id="ep_1_10" class="box margin green">A5s</div>
+				<div id="ep_1_11" class="box margin green">A4s</div>
+				<div id="ep_1_12" class="box margin green">A3s</div>
+				<div id="ep_1_13" class="box nomargin green">A2s</div>
+				<!-- ROW 2 -->
+				<div id="ep_2_1" class="box margin pink">AKo</div>
+				<div id="ep_2_2" class="box margin pink">KK</div>
+				<div id="ep_2_3" class="box margin green">KQs</div>
+				<div id="ep_2_4" class="box margin green">KJs</div>
+				<div id="ep_2_5" class="box margin green">KTs</div>
+				<div id="ep_2_6" class="box margin green">K9s</div>
+				<div id="ep_2_7" class="box margin green">K8s</div>
+				<div id="ep_2_8" class="box margin green">K7s</div>
+				<div id="ep_2_9" class="box margin green">K6s</div>
+				<div id="ep_2_10" class="box margin">K5s</div>
+				<div id="ep_2_11" class="box margin">K4s</div>
+				<div id="ep_2_12" class="box margin">K3s</div>
+				<div id="ep_2_13" class="box nomargin">K2s</div>
+				<!-- ROW 3 -->
+				<div id="ep_3_1" class="box margin green">AQo</div>
+				<div id="ep_3_2" class="box margin green">KQo</div>
+				<div id="ep_3_3" class="box margin pink">QQ</div>
+				<div id="ep_3_4" class="box margin green">QJs</div>
+				<div id="ep_3_5" class="box margin green">QTs</div>
+				<div id="ep_3_6" class="box margin pink">Q9s</div>
+				<div id="ep_3_7" class="box margin pink">Q8s</div>
+				<div id="ep_3_8" class="box margin">Q7s</div>
+				<div id="ep_3_9" class="box margin">Q6s</div>
+				<div id="ep_3_10" class="box margin">Q5s</div>
+				<div id="ep_3_11" class="box margin">Q4s</div>
+				<div id="ep_3_12" class="box margin">Q3s</div>
+				<div id="ep_3_13" class="box nomargin">Q2s</div>
+				<!-- ROW 4 -->
+				<div id="ep_4_1" class="box margin green">AJo</div>
+				<div id="ep_4_2" class="box margin green">KJo</div>
+				<div id="ep_4_3" class="box margin">QJo</div>
+				<div id="ep_4_4" class="box margin green">JJ</div>
+				<div id="ep_4_5" class="box margin green">JTs</div>
+				<div id="ep_4_6" class="box margin green">J9s</div>
+				<div id="ep_4_7" class="box margin green">J8s</div>
+				<div id="ep_4_8" class="box margin">J7s</div>
+				<div id="ep_4_9" class="box margin">J6s</div>
+				<div id="ep_4_10" class="box margin">J5s</div>
+				<div id="ep_4_11" class="box margin">J4s</div>
+				<div id="ep_4_12" class="box margin">J3s</div>
+				<div id="ep_4_13" class="box nomargin">J2s</div>
+				<!-- ROW 5 -->
+				<div id="ep_5_1" class="box margin green">ATo</div>
+				<div id="ep_5_2" class="box margin">KTo</div>
+				<div id="ep_5_3" class="box margin">QTo</div>
+				<div id="ep_5_4" class="box margin">JTo</div>
+				<div id="ep_5_5" class="box margin green">TT</div>
+				<div id="ep_5_6" class="box margin green">T9s</div>
+				<div id="ep_5_7" class="box margin green">T8s</div>
+				<div id="ep_5_8" class="box margin">T7s</div>
+				<div id="ep_5_9" class="box margin">T6s</div>
+				<div id="ep_5_10" class="box margin">T5s</div>
+				<div id="ep_5_11" class="box margin">T4s</div>
+				<div id="ep_5_12" class="box margin">T3s</div>
+				<div id="ep_5_13" class="box nomargin">T2s</div>
+				<!-- ROW 6 -->
+				<div id="ep_6_1" class="box margin">A9o</div>
+				<div id="ep_6_2" class="box margin">K9o</div>
+				<div id="ep_6_3" class="box margin">Q9o</div>
+				<div id="ep_6_4" class="box margin">J9o</div>
+				<div id="ep_6_5" class="box margin">T9o</div>
+				<div id="ep_6_6" class="box margin green">99</div>
+				<div id="ep_6_7" class="box margin green">98s</div>
+				<div id="ep_6_8" class="box margin green">97s</div>
+				<div id="ep_6_9" class="box margin">96s</div>
+				<div id="ep_6_10" class="box margin">95s</div>
+				<div id="ep_6_11" class="box margin">94s</div>
+				<div id="ep_6_12" class="box margin">93s</div>
+				<div id="ep_6_13" class="box nomargin">92s</div>
+				<!-- ROW 7 -->
+				<div id="ep_7_1" class="box margin">A8o</div>
+				<div id="ep_7_2" class="box margin">K8o</div>
+				<div id="ep_7_3" class="box margin">Q8o</div>
+				<div id="ep_7_4" class="box margin">J8o</div>
+				<div id="ep_7_5" class="box margin">T8o</div>
+				<div id="ep_7_6" class="box margin">98o</div>
+				<div id="ep_7_7" class="box margin green">88</div>
+				<div id="ep_7_8" class="box margin green">87s</div>
+				<div id="ep_7_9" class="box margin green">86s</div>
+				<div id="ep_7_10" class="box margin">85s</div>
+				<div id="ep_7_11" class="box margin">84s</div>
+				<div id="ep_7_12" class="box margin">83s</div>
+				<div id="ep_7_13" class="box nomargin">82s</div>
+				<!-- ROW 8 -->
+				<div id="ep_8_1" class="box margin">A7o</div>
+				<div id="ep_8_2" class="box margin">K7o</div>
+				<div id="ep_8_3" class="box margin">Q7o</div>
+				<div id="ep_8_4" class="box margin">J7o</div>
+				<div id="ep_8_5" class="box margin">T7o</div>
+				<div id="ep_8_6" class="box margin">97o</div>
+				<div id="ep_8_7" class="box margin">87o</div>
+				<div id="ep_8_8" class="box margin green">77</div>
+				<div id="ep_8_9" class="box margin green">76s</div>
+				<div id="ep_8_10" class="box margin green">75s</div>
+				<div id="ep_8_11" class="box margin">74s</div>
+				<div id="ep_8_12" class="box margin">73s</div>
+				<div id="ep_8_13" class="box nomargin">72s</div>
+				<!-- ROW 9 -->
+				<div id="ep_9_1" class="box margin">A6o</div>
+				<div id="ep_9_2" class="box margin">K6o</div>
+				<div id="ep_9_3" class="box margin">Q6o</div>
+				<div id="ep_9_4" class="box margin">J6o</div>
+				<div id="ep_9_5" class="box margin">T6o</div>
+				<div id="ep_9_6" class="box margin">96o</div>
+				<div id="ep_9_7" class="box margin">86o</div>
+				<div id="ep_9_8" class="box margin">76o</div>
+				<div id="ep_9_9" class="box margin green">66</div>
+				<div id="ep_9_10" class="box margin green">65s</div>
+				<div id="ep_9_11" class="box margin">64s</div>
+				<div id="ep_9_12" class="box margin">63s</div>
+				<div id="ep_9_13" class="box nomargin">62s</div>
+				<!-- ROW 10 -->
+				<div id="ep_10_1" class="box margin">A5o</div>
+				<div id="ep_10_2" class="box margin">K5o</div>
+				<div id="ep_10_3" class="box margin">Q5o</div>
+				<div id="ep_10_4" class="box margin">J5o</div>
+				<div id="ep_10_5" class="box margin">T5o</div>
+				<div id="ep_10_6" class="box margin">95o</div>
+				<div id="ep_10_7" class="box margin">85o</div>
+				<div id="ep_10_8" class="box margin">75o</div>
+				<div id="ep_10_9" class="box margin">65o</div>
+				<div id="ep_10_10" class="box margin green">55</div>
+				<div id="ep_10_11" class="box margin green">54s</div>
+				<div id="ep_10_12" class="box margin">53s</div>
+				<div id="ep_10_13" class="box nomargin">52s</div>
+				<!-- ROW 11 -->
+				<div id="ep_11_1" class="box margin">A4o</div>
+				<div id="ep_11_2" class="box margin">K4o</div>
+				<div id="ep_11_3" class="box margin">Q4o</div>
+				<div id="ep_11_4" class="box margin">J4o</div>
+				<div id="ep_11_5" class="box margin">T4o</div>
+				<div id="ep_11_6" class="box margin">94o</div>
+				<div id="ep_11_7" class="box margin">84o</div>
+				<div id="ep_11_8" class="box margin">74o</div>
+				<div id="ep_11_9" class="box margin">64o</div>
+				<div id="ep_11_10" class="box margin">54o</div>
+				<div id="ep_11_11" class="box margin green">44</div>
+				<div id="ep_11_12" class="box margin">43s</div>
+				<div id="ep_11_13" class="box nomargin">42s</div>
+				<!-- ROW 12 -->
+				<div id="ep_12_1" class="box margin">A3o</div>
+				<div id="ep_12_2" class="box margin">K3o</div>
+				<div id="ep_12_3" class="box margin">Q3o</div>
+				<div id="ep_12_4" class="box margin">J3o</div>
+				<div id="ep_12_5" class="box margin">T3o</div>
+				<div id="ep_12_6" class="box margin">93o</div>
+				<div id="ep_12_7" class="box margin">83o</div>
+				<div id="ep_12_8" class="box margin">73o</div>
+				<div id="ep_12_9" class="box margin">63o</div>
+				<div id="ep_12_10" class="box margin">53o</div>
+				<div id="ep_12_11" class="box margin">43o</div>
+				<div id="ep_12_12" class="box margin green">33</div>
+				<div id="ep_12_13" class="box nomargin">32s</div>
+				<!-- ROW 13 -->
+				<div id="ep_13_1" class="box margin">A2o</div>
+				<div id="ep_13_2" class="box margin">K2o</div>
+				<div id="ep_13_3" class="box margin">Q2o</div>
+				<div id="ep_13_4" class="box margin">J2o</div>
+				<div id="ep_13_5" class="box margin">T2o</div>
+				<div id="ep_13_6" class="box margin">92o</div>
+				<div id="ep_13_7" class="box margin">82o</div>
+				<div id="ep_13_8" class="box margin">72o</div>
+				<div id="ep_13_9" class="box margin">62o</div>
+				<div id="ep_13_10" class="box margin">52o</div>
+				<div id="ep_13_11" class="box margin">42o</div>
+				<div id="ep_13_12" class="box margin">32o</div>
+				<div id="ep_13_13" class="box nomargin green">22</div>
+			</div>
+		</div>
+		<div id="info">
+			<div id="info_ep">
+				<div id="info_hands">Hands played: 226 / 1326 (17%)</div>
+				<div id="info_legend">
+					<ul>
+						<li>
+							<div class="info_legend_line">
+								<div class="info_legend_line_color">a</div>
+								<div class="info_legend_line_description">Raise</div>
+							</div>
+							<div class="info_legend_line">
+								<div class="info_legend_line_color">a</div>
+								<div class="info_legend_line_description">Raise if fish</div>
+							</div>
+							<div class="info_legend_line">
+								<div class="info_legend_line_color">a</div>
+								<div class="info_legend_line_description">Fold</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
