@@ -16,7 +16,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #position #position_filters .filter_margin {margin: 0 2% 0 0;}
 #scenario {margin: 25px 0 0 0;}
 #scenario #scenario_filters {overflow: auto;}
-#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; font-size: 12px; color: #8e9ab7; text-decoration: none;}
+#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; font-size: 12px; color: #969696; text-decoration: none;}
 #scenario #scenario_filters a#scenario_filters_rfi {color: #fff; border-bottom: #fff solid 1px;}
 #scenario #scenario_filters .filter_margin {margin: 0 10px 0 0;}
 #title {margin: 40px 0 0 0; color: #ddd;}
@@ -42,6 +42,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
