@@ -1,3 +1,8 @@
+// Hide splash screen
+function hideSplash() {
+	document.getElementById('splash').classList.add('hide');
+}
+
 // Navigation
 function changePosition(pos) {
 	if (pos == 'ep') {
@@ -132,4 +137,5 @@ function changePosition(pos) {
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
 		document.getElementById('title_bb').setAttribute('style', 'display: block;');
 	}
+
 }
