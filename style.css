@@ -12,7 +12,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash #splash_inner #splash_text {position: absolute; top: 50%; left: 0; width: 100%;}
 #splash #splash_inner #splash_text #splash_text_title {font-family: Montserrat; font-size: 42px; color: #fff; text-align: center;}
 #splash #splash_inner #splash_text #splash_text_tagline {margin: 15px 0 0 0; font-size: 16px; color: #9eaabd; line-height: 22px; text-align: center;}
-#splash #splash_inner a {position: absolute; bottom: 20%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
+#splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
 #page {width: 426px; margin: 0 auto;}
 #position {margin: 50px 0 0 0;}
 #position #position_title {font-weight: bold;}
@@ -43,53 +43,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
 	#splash #splash_inner #splash_text {top: 60%;}
-	#splash #splash_inner a {bottom: 15%;}
+	#splash #splash_inner a {bottom: 10%;}
 	#page {width: 374px;}
 	#chart {width: 374px; margin: 10px 0 0 0;}
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
