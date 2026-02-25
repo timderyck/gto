@@ -42,13 +42,14 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
-	#splash #splash_inner #splash_text {top: 50%;}
+	#splash #splash_inner #splash_text {top: 60%;}
 	#splash #splash_inner a {bottom: 15%;}
 	#page {width: 374px;}
 	#chart {width: 374px; margin: 10px 0 0 0;}
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
