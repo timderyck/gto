@@ -10,7 +10,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash.hide {transform: translateY(-100%);}
 #splash #splash_inner {width: 426px; margin: 0 auto;}
 #splash #splash_inner img {width: 50%;}
-#splash #splash_inner a {display: block; height: 40px; line-height: 40px; margin: 100px 50px 0 50px; background: #256aff; font-size: 22px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
+#splash #splash_inner a {position: absolute; bottom: 20%; left: 0; display: block; height: 50px; line-height: 50px; margin: 100px 50px 0 50px; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
 #page {width: 426px; margin: 0 auto;}
 #position {margin: 50px 0 0 0;}
 #position #position_title {font-weight: bold;}
@@ -47,6 +47,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
