@@ -9,6 +9,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #1b2028; transition: transform 0.8s ease-in-out;}
 #splash.hide {transform: translateY(-100%);}
 #splash #splash_inner {width: 426px; margin: 0 auto;}
+#splash #splash_inner img {width: 50%;}
 #page {width: 426px; margin: 0 auto;}
 #position {margin: 50px 0 0 0;}
 #position #position_title {font-weight: bold;}
@@ -45,6 +46,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#info {width: 374px; margin: 20px 0 0 0;}
 
 }
+
 
 
 
