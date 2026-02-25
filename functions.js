@@ -1,7 +1,7 @@
 // Hide splash screen
 function hideSplash() {
-	//document.getElementById('splash').classList.add('hide');
-	document.getElementById('splash').setAttribute('style', 'display: none;');
+	document.getElementById('splash').classList.add('hide');
+	//document.getElementById('splash').setAttribute('style', 'display: none;');
 }
 
 // Navigation
@@ -140,4 +140,5 @@ function changePosition(pos) {
 	}
 
 }
+
 
