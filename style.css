@@ -8,7 +8,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash {position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #1b2028; transition: transform 0.4s ease-in-out;}
 #splash.hide {transform: translateY(-100%);}
 #splash #splash_inner {position: relative; width: 426px; height: 100%; margin: 0 auto;}
-#splash #splash_inner #splash_logo {position: absolute; top: 10%; left: 0; width: 100%;}
+#splash #splash_inner #splash_logo {position: absolute; top: 20%; left: 0; width: 100%;}
 #splash #splash_inner #splash_logo img {width: 36%; margin: 0 0 0 32%;}
 #splash #splash_inner #splash_text {position: absolute; top: 50%; left: 0; width: 100%;}
 #splash #splash_inner #splash_text #splash_text_title {font-family: Montserrat; font-size: 42px; color: #fff; text-align: center;}
@@ -43,7 +43,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
-	#splash #splash_inner #splash_logo {top: 15%;}
+	#splash #splash_inner #splash_logo {top: 20%;}
 	#splash #splash_inner #splash_text {top: 60%;}
 	#splash #splash_inner a {bottom: 10%;}
 	#page {width: 374px;}
@@ -51,6 +51,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
