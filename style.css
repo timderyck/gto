@@ -36,7 +36,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .pink {background: #995379; color: #fff;}
 #chart .blue {background: #3d6b93; color: #fff;}
 #chart .green {background: #79a65a; color: #fff;}
-#chart .red {background: #b63738; color: #fff;}
+#chart .red {background: #9a2e2d; color: #fff;}
 #info {width: 426px; margin: 20px 0 0 0;}
 #info #info_hands {text-align: right;}
 #info #info_legend {margin: 5px 0 0 0; text-align: right;}
@@ -51,6 +51,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
