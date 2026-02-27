@@ -23,7 +23,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #position #position_filters .filter_margin {margin: 0 2% 0 0;}
 #scenario {margin: 15px 0 0 0;}
 #scenario #scenario_filters {overflow: auto;}
-#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; font-size: 12px; color: #969696; text-decoration: none; border-bottom: #1b2028 solid 1px;}
+#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; margin: 0 0 5px 0; font-size: 12px; color: #969696; text-decoration: none; border-bottom: #1b2028 solid 1px;}
 #scenario #scenario_filters a#scenario_filters_active {color: #fff; border-bottom: #fff solid 1px;}
 #scenario #scenario_filters .filter_margin {margin: 0 12px 0 0;}
 #title {margin: 40px 0 0 0; color: #ddd;}
@@ -62,6 +62,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
