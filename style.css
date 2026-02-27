@@ -40,8 +40,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #info {width: 426px; margin: 20px 0 0 0;}
 #info #info_hands {text-align: right;}
 #info #info_legend {margin: 5px 0 0 0; text-align: right;}
-#footer {margin: 20px 0 0 0;}
-#footer a {color: #fff; text-decoration: none;}
+#footer {margin: 20px 0 0 0; text-align: center;}
+#footer a {color: #969696; text-decoration: none;}
 #footer span {padding: 0 8px;}
 
 @media screen and (max-width: 970px) {
@@ -54,6 +54,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
