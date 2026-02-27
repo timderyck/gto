@@ -6,6 +6,23 @@ function hideSplash() {
 }
 
 // Navigation
+function goToPage(page) {
+	if (page == 'contact') {
+		document.getElementById('page').setAttribute('style', 'display: none;');
+		document.getElementById('contact').setAttribute('style', 'display: block;');
+	}
+	if (page == 'terms') {
+		document.getElementById('page').setAttribute('style', 'display: none;');
+		document.getElementById('terms').setAttribute('style', 'display: block;');
+	}
+	if (page == 'privacy') {
+		document.getElementById('page').setAttribute('style', 'display: none;');
+		document.getElementById('privacy').setAttribute('style', 'display: block;');
+	}
+}
+
+
+// Navigation
 function changePosition(pos) {
 	if (pos == 'ep') {
 		document.getElementById('position_filter_ep').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
@@ -141,6 +158,7 @@ function changePosition(pos) {
 	}
 
 }
+
 
 
 
