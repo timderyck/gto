@@ -44,6 +44,10 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #footer a {color: #969696; text-decoration: none;}
 #footer span {padding: 0 5px;}
 
+#contact {display: none; width: 426px; margin: 0 auto;}
+#terms {display: none; width: 426px; margin: 0 auto;}
+#privacy {display: none; width: 426px; margin: 0 auto;}
+
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
 	#splash #splash_inner #splash_logo {top: 20%;}
@@ -54,6 +58,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
