@@ -23,8 +23,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #position #position_filters .filter_margin {margin: 0 2% 0 0;}
 #scenario {margin: 15px 0 0 0;}
 #scenario #scenario_filters {overflow: auto;}
-#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; font-size: 12px; color: #969696; text-decoration: none;}
-#scenario #scenario_filters a#scenario_filters_rfi {color: #fff; border-bottom: #fff solid 1px;}
+#scenario #scenario_filters a {display: block; float: left; height: 22px; line-height: 22px; font-size: 12px; color: #969696; text-decoration: none; border-bottom: #1b2028 solid 1px;}
+#scenario #scenario_filters a#scenario_filters_active {color: #fff; border-bottom: #fff solid 1px;}
 #scenario #scenario_filters .filter_margin {margin: 0 12px 0 0;}
 #title {margin: 40px 0 0 0; color: #ddd;}
 #title_mp, #title_co, #title_bu, #title_sb, #title_bb {display: none;}
@@ -40,8 +40,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #info {width: 426px; margin: 20px 0 0 0;}
 #info #info_hands {text-align: right;}
 #info #info_legend {margin: 5px 0 0 0; text-align: right;}
-#footer {margin: 20px 0 0 0; font-size: 12px; text-align: center;}
+#footer {margin: 20px 0 50px 0; font-size: 12px; text-align: center;}
 #footer a {color: #969696; text-decoration: none;}
+#footer a:hover {text-decoration: underline;}
 #footer span {padding: 0 5px;}
 
 #contact {display: none; width: 426px; margin: 0 auto;}
@@ -61,6 +62,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
