@@ -45,6 +45,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #footer span {padding: 0 5px;}
 
 #contact {display: none; width: 426px; margin: 0 auto;}
+#contact #contact_title {font-size: 28px; color: #fff;}
+#contact #contact_intro {margin: 25px 0 0 0; line-height: 22px;}
+#contact #contact_form {margin: 25px 0 0 0;}
 #terms {display: none; width: 426px; margin: 0 auto;}
 #privacy {display: none; width: 426px; margin: 0 auto;}
 
@@ -58,6 +61,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
