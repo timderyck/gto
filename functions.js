@@ -24,133 +24,133 @@ function goToPage(page) {
 
 // Navigation
 function changePosition(pos) {
-	if (pos == 'ep') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+	if (pos == 'lj') {
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: block;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: none;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: block;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: block;');
-		document.getElementById('title_mp').setAttribute('style', 'display: none;');
+		document.getElementById('title_lj').setAttribute('style', 'display: block;');
+		document.getElementById('title_hj').setAttribute('style', 'display: none;');
 		document.getElementById('title_co').setAttribute('style', 'display: none;');
 		document.getElementById('title_bu').setAttribute('style', 'display: none;');
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
 		document.getElementById('title_bb').setAttribute('style', 'display: none;');
 	}
-	if (pos == 'mp') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
+	if (pos == 'hj') {
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: none;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: block;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: block;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: none;');
-		document.getElementById('title_mp').setAttribute('style', 'display: block;');
+		document.getElementById('title_lj').setAttribute('style', 'display: none;');
+		document.getElementById('title_hj').setAttribute('style', 'display: block;');
 		document.getElementById('title_co').setAttribute('style', 'display: none;');
 		document.getElementById('title_bu').setAttribute('style', 'display: none;');
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
 		document.getElementById('title_bb').setAttribute('style', 'display: none;');
 	}
 	if (pos == 'co') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: none;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: none;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: block;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: none;');
-		document.getElementById('title_mp').setAttribute('style', 'display: none;');
+		document.getElementById('title_lj').setAttribute('style', 'display: none;');
+		document.getElementById('title_hj').setAttribute('style', 'display: none;');
 		document.getElementById('title_co').setAttribute('style', 'display: block;');
 		document.getElementById('title_bu').setAttribute('style', 'display: none;');
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
 		document.getElementById('title_bb').setAttribute('style', 'display: none;');
 	}
 	if (pos == 'bu') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: none;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: none;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: block;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: none;');
-		document.getElementById('title_mp').setAttribute('style', 'display: none;');
+		document.getElementById('title_lj').setAttribute('style', 'display: none;');
+		document.getElementById('title_hj').setAttribute('style', 'display: none;');
 		document.getElementById('title_co').setAttribute('style', 'display: none;');
 		document.getElementById('title_bu').setAttribute('style', 'display: block;');
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
 		document.getElementById('title_bb').setAttribute('style', 'display: none;');
 	}
 	if (pos == 'sb') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: none;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: none;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: block;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: none;');
-		document.getElementById('title_mp').setAttribute('style', 'display: none;');
+		document.getElementById('title_lj').setAttribute('style', 'display: none;');
+		document.getElementById('title_hj').setAttribute('style', 'display: none;');
 		document.getElementById('title_co').setAttribute('style', 'display: none;');
 		document.getElementById('title_bu').setAttribute('style', 'display: none;');
 		document.getElementById('title_sb').setAttribute('style', 'display: block;');
 		document.getElementById('title_bb').setAttribute('style', 'display: none;');
 	}
 	if (pos == 'bb') {
-		document.getElementById('position_filter_ep').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
-		document.getElementById('position_filter_mp').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_lj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
+		document.getElementById('position_filter_hj').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_co').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bu').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_sb').setAttribute('style', 'background: #343842; border: #343842 solid 1px;');
 		document.getElementById('position_filter_bb').setAttribute('style', 'background: #292a2e; border: #666 solid 1px;');
 		
-		document.getElementById('chart_ep').setAttribute('style', 'display: none;');
-		document.getElementById('chart_mp').setAttribute('style', 'display: none;');
+		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
+		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: block;');
 		
-		document.getElementById('title_ep').setAttribute('style', 'display: none;');
-		document.getElementById('title_mp').setAttribute('style', 'display: none;');
+		document.getElementById('title_lj').setAttribute('style', 'display: none;');
+		document.getElementById('title_hj').setAttribute('style', 'display: none;');
 		document.getElementById('title_co').setAttribute('style', 'display: none;');
 		document.getElementById('title_bu').setAttribute('style', 'display: none;');
 		document.getElementById('title_sb').setAttribute('style', 'display: none;');
@@ -158,6 +158,7 @@ function changePosition(pos) {
 	}
 
 }
+
 
 
 
