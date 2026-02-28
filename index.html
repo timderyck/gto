@@ -1191,8 +1191,12 @@
 		</div>
 		<div id="contact_form">
 			<form action="https://formspree.io/f/xkovejrn" method="POST">
-				<label>Your email:<input type="email" name="email"></label>
-				<label>Your message:<textarea name="message"></textarea></label>
+				<label for="name">Your name:</label>
+				<input id="name" name="name" required />
+				<label for="email">Your email:</label>
+				<input id="email" name="email" required />
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
 				<button type="submit">Send</button>
 			</form>
 		</div>
@@ -1206,6 +1210,7 @@
 </body>
 
 </html>
+
 
 
 
