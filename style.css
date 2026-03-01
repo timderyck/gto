@@ -23,11 +23,10 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 #page {display: none; width: 426px; margin: 0 auto;}
 #scenarios {overflow: auto; margin: 15px 0 0 0;}
-#scenarios a {display: block; float: left; width: calc(50% - 8px); height: 25px; line-height: 25px; background: #111318; font-size: 12px; color: #969696; text-decoration: none; text-align: center; border-bottom: #1b2028 solid 1px;}
+#scenarios a {display: block; float: left; width: calc(50% - 8px); height: 25px; line-height: 25px; margin: 5px 0; background: #111318; font-size: 12px; color: #969696; text-decoration: none; text-align: center; border-bottom: #111318 solid 1px; border-radius: 6px;}
 #scenarios a.scenario_left {margin: 0 16px 0 0;}
 #scenarios a.scenario_right {}
-#scenarios a#scenario_active {color: #fff; border-bottom: #fff solid 1px;}
-#scenarios a.filter_margin {margin: 0 12px 0 0;}
+#scenarios a#scenario_active {color: #fff; border-bottom: #303239 solid 1px;}
 #chart {overflow: auto; width: 426px; margin: 40px 0 0 0;}
 #chart_hj, #chart_co, #chart_bu, #chart_sb, #chart_bb {display: none;}
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
@@ -88,6 +87,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
