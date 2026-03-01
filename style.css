@@ -26,7 +26,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #scenarios a {display: block; float: left; height: 22px; line-height: 22px; padding: 10px 0 0 0; font-size: 12px; color: #dedfe3; text-decoration: none; border-bottom: #1b2028 solid 1px;}
 #scenarios a#scenario_active {color: #fff; border-bottom: #fff solid 1px;}
 #scenarios a.filter_margin {margin: 0 12px 0 0;}
-#chart {overflow: auto; width: 426px; margin: 20px 0 0 0;}
+#chart {overflow: auto; width: 426px; margin: 40px 0 0 0;}
 #chart_hj, #chart_co, #chart_bu, #chart_sb, #chart_bb {display: none;}
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
@@ -63,6 +63,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
