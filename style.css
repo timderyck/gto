@@ -1,7 +1,7 @@
 @font-face {font-family: Montserrat; src: url('fonts/montserrat_medium.ttf');}
 
 html, body {margin: 0; padding: 0;}
-body {background: #1b2028; font-family: Arial; font-size: 14px; color: #969696;}
+body {background: #303239; font-family: Arial; font-size: 14px; color: #969696;}
 img {border: none;}
 input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -webkit-appearance: none;}
 
@@ -21,7 +21,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #positions a#position_lj {background: #292a2e; border: #666 solid 1px;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
 
-#page {display: none; background: #1b2028; width: 426px; margin: 0 auto;}
+#page {display: none; background: #1b2028;}
+#page #page_inner {width: 426px; margin: 0 auto;}
 #scenarios {overflow: auto; margin: 15px 0 0 0;}
 #scenarios a {display: block; float: left; height: 22px; line-height: 22px; padding: 10px 0 0 0; font-size: 12px; color: #dedfe3; text-decoration: none; border-bottom: #1b2028 solid 1px;}
 #scenarios a#scenario_active {color: #fff; border-bottom: #fff solid 1px;}
@@ -63,6 +64,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
