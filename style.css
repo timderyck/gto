@@ -17,7 +17,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 #positions {padding: 20px 0; background: #303239;}
 #positions #positions_inner {width: 426px; margin: 0 auto; overflow: auto;}
-#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; background: #343842; border: #343842 solid 1px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
+#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; margin: 3px 0; background: #191d24; border: #343842 solid 1px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
 #positions a#position_lj {background: #292a2e; border: #666 solid 1px;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
 
@@ -88,6 +88,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
