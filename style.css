@@ -15,17 +15,17 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash #splash_inner #splash_text #splash_text_tagline {margin: 15px 0 0 0; font-size: 16px; color: #9eaabd; line-height: 22px; text-align: center;}
 #splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
 
-#header {padding: 40px 0; background: #303239;}
-#header #header_inner {width: 426px; margin: 0 auto;}
-#header #header_position {overflow: auto;}
-#header #header_position a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; background: #343842; border: #343842 solid 1px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
-#header #header_position a#header_position_lj {background: #292a2e; border: #666 solid 1px;}
-#header #header_position .filter_margin {margin: 0 2% 0 0;}
-#header #header_scenario {overflow: auto; margin: 15px 0 0 0;}
-#header #header_scenario a {display: block; float: left; height: 22px; line-height: 22px; padding: 10px 0 0 0; font-size: 12px; color: #dedfe3; text-decoration: none; border-bottom: #303239 solid 1px;}
-#header #header_scenario a#header_scenario_active {color: #fff; border-bottom: #fff solid 1px;}
-#header #header_scenario .filter_margin {margin: 0 12px 0 0;}
+#positions {padding: 40px 0; background: #303239;}
+#positions #positions_inner {width: 426px; margin: 0 auto; overflow: auto;}
+#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; background: #343842; border: #343842 solid 1px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
+#positions a#position_lj {background: #292a2e; border: #666 solid 1px;}
+#positions a.filter_margin {margin: 0 2% 0 0;}
+
 #page {display: none; width: 426px; margin: 0 auto;}
+#scenarios {overflow: auto; margin: 15px 0 0 0;}
+#scenarios a {display: block; float: left; height: 22px; line-height: 22px; padding: 10px 0 0 0; font-size: 12px; color: #dedfe3; text-decoration: none; border-bottom: #303239 solid 1px;}
+#scenarios a#scenario_active {color: #fff; border-bottom: #fff solid 1px;}
+#scenarios a.filter_margin {margin: 0 12px 0 0;}
 #title {margin: 40px 0 0 0; color: #ddd;}
 #title_hj, #title_co, #title_bu, #title_sb, #title_bb {display: none;}
 #chart {overflow: auto; width: 426px; margin: 20px 0 0 0;}
@@ -64,6 +64,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#info {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
