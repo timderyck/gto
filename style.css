@@ -67,8 +67,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#page {width: 374px;}
 	#chart {width: 374px; margin: 10px 0 0 0;}
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
-	#info {width: 374px; margin: 20px 0 0 0;}
+	#legend {width: 374px; margin: 20px 0 0 0;}
 }
+
 
 
 
