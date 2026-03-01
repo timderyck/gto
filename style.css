@@ -59,8 +59,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #terms a#terms_back {height: 60px; line-height: 60px; color: #fff; text-decoration: none;}
 #terms a#terms_back:hover {text-decoration: underline;}
 #terms #terms_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
-#terms p {margin: 5px 0; line-height: 22px;}
-#terms p.paragraph_title {font-size; 18px;}
+#terms p {margin: 10px 0; line-height: 22px;}
+#terms p.paragraph_title {margin: 20px 0 10px 0; font-size: 16px; font-weight: bold;}
 #terms ul {}
 #terms ul li {margin: 3px 0;}
 #privacy {display: none; width: 426px; margin: 0 auto; color: #bbb;}
@@ -78,6 +78,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
