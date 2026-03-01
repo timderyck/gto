@@ -55,13 +55,15 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #contact #contact_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
 #contact #contact_intro {margin: 25px 0 0 0; line-height: 22px;}
 #contact #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: #6452a9 solid 8px;}
-#terms {display: none; width: 426px; margin: 0 auto;}
+#terms {display: none; width: 426px; margin: 0 auto; color: #bbb;}
 #terms a#terms_back {height: 60px; line-height: 60px; color: #fff; text-decoration: none;}
 #terms a#terms_back:hover {text-decoration: underline;}
 #terms #terms_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
 #terms p {margin: 5px 0; line-height: 22px;}
 #terms p.paragraph_title {font-size; 18px;}
-#privacy {display: none; width: 426px; margin: 0 auto;}
+#terms ul {}
+#terms ul li {}
+#privacy {display: none; width: 426px; margin: 0 auto; color: #bbb;}
 
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
@@ -76,6 +78,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
