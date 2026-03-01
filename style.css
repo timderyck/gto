@@ -43,7 +43,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #legend ul li .blue {background: #3d6b93;}
 #legend ul li .green {background: #79a65a;}
 #legend ul li .red {background: #9a2e2d;}
-#legend ul li .legend_description {float: right; width: calc(100% - 33px); line-height: 30px; text-align: right;}
+#legend ul li .legend_description {float: right; width: calc(100% - 45px); line-height: 30px; text-align: right;}
 #footer {margin: 20px 0 50px 0; font-size: 12px; text-align: center;}
 #footer a {color: #969696; text-decoration: none;}
 #footer a:hover {text-decoration: underline;}
@@ -68,7 +68,10 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#chart {width: 374px; margin: 10px 0 0 0;}
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#legend {width: 374px; margin: 20px 0 0 0;}
+	#legend ul li .legend_color {width: 26px; height: 26px;}
+	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
