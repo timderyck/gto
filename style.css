@@ -62,7 +62,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #terms p {margin: 5px 0; line-height: 22px;}
 #terms p.paragraph_title {font-size; 18px;}
 #terms ul {}
-#terms ul li {}
+#terms ul li {margin: 3px 0;}
 #privacy {display: none; width: 426px; margin: 0 auto; color: #bbb;}
 
 @media screen and (max-width: 970px) {
@@ -78,6 +78,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
