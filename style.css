@@ -15,10 +15,10 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash #splash_inner #splash_text #splash_text_tagline {margin: 15px 0 0 0; font-size: 16px; color: #9eaabd; line-height: 22px; text-align: center;}
 #splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
 
-#positions {padding: 20px 0; background: #303239;}
+#positions {padding: 20px 0; background: #111318;}
 #positions #positions_inner {width: 426px; margin: 0 auto; overflow: auto;}
-#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; margin: 3px 0; background: #191d24; border: #343842 solid 1px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
-#positions a#position_lj {background: #292a2e; border: #666 solid 1px;}
+#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; margin: 3px 0; background: #303239; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
+#positions a#position_lj {background: #256aff;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
 
 #page {display: none; width: 426px; margin: 0 auto;}
@@ -87,6 +87,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
