@@ -17,10 +17,10 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 #page {display: none; width: 426px; margin: 0 auto;}
 #positions {padding: 20px 0 0 0; overflow: auto;}
-#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; margin: 3px 0; background: #303239; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
-#positions a#position_lj {background: #256aff;}
+#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; margin: 3px 0; background: #111318; color: #969696; text-decoration: none; text-align: center; border-radius: 6px;}
+#positions a#position_lj {background: #256aff; color: #fff;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
-#scenarios {overflow: auto; margin: 15px 0 0 0;}
+#scenarios {overflow: auto; padding: 5px 0 0 0;}
 #scenarios a {display: block; float: left; width: calc(50% - 8px); height: 25px; line-height: 25px; background: #111318; font-size: 12px; color: #969696; text-decoration: none; text-align: center; border-top: #111318 solid 2px; border-bottom: #111318 solid 2px; border-radius: 6px;}
 #scenarios a.scenario_left {margin: 5px 16px 0 0;}
 #scenarios a.scenario_right {margin: 5px 0 0 0;}
@@ -85,6 +85,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
