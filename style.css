@@ -50,29 +50,19 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #footer span {padding: 0 5px;}
 
 #contact {display: none; width: 426px; margin: 0 auto; color: #bbb;}
-#contact #contact_back {height: 30px; padding: 20px 0 0 0; overflow: auto;}
-#contact #contact_back img {float: left; display: block; height: 20px; margin: 5px 10px 0 0;}
-#contact #contact_back a {float: left; display: block; height: 30px; line-height: 30px; color: #fff; text-decoration: none;}
-#contact #contact_back a:hover {text-decoration: underline;}
-#contact #contact_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
-#contact #contact_intro {margin: 25px 0 0 0; line-height: 22px;}
-#contact #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: /*#6452a9*/ #3d7cb8 solid 8px;}
 #terms {display: none; width: 426px; margin: 0 auto; color: #bbb;}
-#terms a#terms_back {height: 60px; line-height: 60px; color: #fff; text-decoration: none;}
-#terms a#terms_back:hover {text-decoration: underline;}
-#terms #terms_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
-#terms p {margin: 10px 0; line-height: 22px;}
-#terms p.paragraph_title {margin: 20px 0 10px 0; font-size: 16px; font-weight: bold;}
-#terms ul {}
-#terms ul li {margin: 3px 0;}
 #privacy {display: none; width: 426px; margin: 0 auto; color: #bbb;}
-#privacy a#terms_back {height: 60px; line-height: 60px; color: #fff; text-decoration: none;}
-#privacy a#terms_back:hover {text-decoration: underline;}
-#privacy #terms_title {margin: 20px 0 0 0; font-family: Montserrat; font-size: 28px; color: #fff;}
-#privacy p {margin: 10px 0; line-height: 22px;}
-#privacy p.paragraph_title {margin: 20px 0 10px 0; font-size: 16px; font-weight: bold;}
-#privacy ul {}
-#privacy ul li {margin: 3px 0;}
+.misc {}
+.misc .misc_back {height: 30px; padding: 20px 0 0 0; overflow: auto;}
+.misc .misc_back img {float: left; display: block; height: 20px; margin: 5px 10px 0 0;}
+.misc .misc_back a {float: left; display: block; height: 30px; line-height: 30px; color: #fff; text-decoration: none;}
+.misc .misc_back a:hover {text-decoration: underline;}
+.misc .misc_title {margin: 20px 0 20px 0; font-family: Montserrat; font-size: 28px; color: #fff;}
+.misc #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: /*#6452a9*/ #3d7cb8 solid 8px;}
+.misc p {margin: 10px 0; line-height: 22px;}
+.misc p.paragraph_title {margin: 20px 0 10px 0; font-size: 16px; font-weight: bold;}
+.misc ul {}
+.misc ul li {margin: 3px 0;}
 
 @media screen and (max-width: 970px) {
 	#splash #splash_inner {width: 374px;}
@@ -89,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
