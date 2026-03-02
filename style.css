@@ -16,9 +16,6 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #fff; text-decoration: none; text-align: center; border-radius: 8px;}
 
 #page {display: none; width: 426px; margin: 0 auto; padding: 20px 0 0 0;}
-.infotitle {width: 426px; height: 30px; overflow: none; text-align: center;}
-.infotitle .infotitle_line {height: 1px; margin: 14px 0 0 0; background: #969696;}
-.infotitle .infotitle_text {display: inline-block; background: #1b2028; height: 30px; line-height: 30px; margin: -30px!important 0 0 0; padding: 0 20px; font-size: 12px; color: #969696;}
 #positions {padding: 10px 0 0 0; overflow: auto;}
 #positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; background: #29313d; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
 #positions a#position_lj {background: #111318; color: #fff;}
@@ -88,6 +85,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
