@@ -17,7 +17,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 #page {display: none; width: 426px; margin: 0 auto; padding: 20px 0 0 0;}
 #positions {padding: 10px 0 0 0; overflow: auto;}
-#positions a {display: block; float: left; width: calc(15% - 2px); height: 38px; line-height: 38px; background: #29313d; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
+#positions a {display: block; float: left; width: 15%; height: 38px; line-height: 38px; background: #29313d; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
 #positions a#position_lj {background: #111318; color: #fff;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
 #scenarios {overflow: auto; padding: 15px 0 0 0;}
@@ -45,7 +45,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #legend ul li .grey {background: #323741;}
 #legend ul li .legend_description {float: right; width: calc(100% - 45px); margin: 0 15px 0 0; line-height: 30px; text-align: right;}
 #footer {margin: 40px 0 50px 0; font-size: 12px; text-align: center;}
-#footer a {color: #9689c6; text-decoration: none;}
+#footer a {color: #969696; text-decoration: none;}
 #footer a:hover {text-decoration: underline;}
 #footer span {padding: 0 5px;}
 
@@ -77,14 +77,17 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#splash #splash_inner #splash_logo {top: 20%;}
 	#splash #splash_inner #splash_text {top: 60%;}
 	#splash #splash_inner a {bottom: 10%;}
-	#positions #positions_inner {width: 374px;}
 	#page {width: 374px;}
 	#chart {width: 374px; margin: 10px 0 0 0;}
 	#chart .box {width: 26px; height: 26px; line-height: 26px; font-size: 11px;}
 	#legend {width: 374px; margin: 20px 0 0 0;}
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
+	#contact {width: 374px;}
+	#terms {width: 374px;}
+	#privacy {width: 374px;}
 }
+
 
 
 
