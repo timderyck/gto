@@ -25,7 +25,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #scenarios a.scenario_left {margin: 5px 16px 0 0;}
 #scenarios a.scenario_right {margin: 5px 0 0 0;}
 #scenarios a#scenario_active {background: #111318; color: #fff;}
-#chart {overflow: auto; width: 426px; margin: 15px 0 0 0;}
+#chart {overflow: auto; width: 426px; margin: 30px 0 0 0;}
 #chart_hj, #chart_co, #chart_bu, #chart_sb, #chart_bb {display: none;}
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
@@ -85,6 +85,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#legend ul li .legend_color {width: 26px; height: 26px;}
 	#legend ul li .legend_description {line-height: 26px;}
 }
+
 
 
 
