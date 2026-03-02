@@ -7,16 +7,32 @@ function hideSplash() {
 
 // Navigation
 function goToPage(page) {
+	if (page == 'home') {
+		window.scrollTo(0, 0);
+		document.getElementById('page').setAttribute('style', 'display: block;');
+		document.getElementById('contact').setAttribute('style', 'display: none;');
+		document.getElementById('terms').setAttribute('style', 'display: none;');
+		document.getElementById('privacy').setAttribute('style', 'display: none;');
+	}
 	if (page == 'contact') {
+		window.scrollTo(0, 0);
 		document.getElementById('page').setAttribute('style', 'display: none;');
 		document.getElementById('contact').setAttribute('style', 'display: block;');
+		document.getElementById('terms').setAttribute('style', 'display: none;');
+		document.getElementById('privacy').setAttribute('style', 'display: none;');
 	}
 	if (page == 'terms') {
+		window.scrollTo(0, 0);
 		document.getElementById('page').setAttribute('style', 'display: none;');
+		document.getElementById('contact').setAttribute('style', 'display: none;');
 		document.getElementById('terms').setAttribute('style', 'display: block;');
+		document.getElementById('privacy').setAttribute('style', 'display: none;');
 	}
 	if (page == 'privacy') {
+		window.scrollTo(0, 0);
 		document.getElementById('page').setAttribute('style', 'display: none;');
+		document.getElementById('contact').setAttribute('style', 'display: none;');
+		document.getElementById('terms').setAttribute('style', 'display: none;');
 		document.getElementById('privacy').setAttribute('style', 'display: block;');
 	}
 }
@@ -116,6 +132,7 @@ function changePosition(pos) {
 	}
 
 }
+
 
 
 
