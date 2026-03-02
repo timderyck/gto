@@ -30,7 +30,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
 #chart .nomargin {margin: 0 0 3px 0;}
-#chart .pink {background: #f46767; color: #fff;} /*#f25454*/
+#chart .pink {background: #f25454; color: #fff;}
 #chart .blue {background: #3d7cb8; color: #fff;}
 #chart .green {background: #79a65a; color: #fff;}
 #chart .red {background: #9a2e2d; color: #fff;}
@@ -87,6 +87,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
