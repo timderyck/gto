@@ -8,17 +8,14 @@ function hideSplash() {
 // Navigation
 function goToPage(page) {
 	if (page == 'contact') {
-		document.getElementById('positions').setAttribute('style', 'display: none;');
 		document.getElementById('page').setAttribute('style', 'display: none;');
 		document.getElementById('contact').setAttribute('style', 'display: block;');
 	}
 	if (page == 'terms') {
-		document.getElementById('positions').setAttribute('style', 'display: none;');
 		document.getElementById('page').setAttribute('style', 'display: none;');
 		document.getElementById('terms').setAttribute('style', 'display: block;');
 	}
 	if (page == 'privacy') {
-		document.getElementById('positions').setAttribute('style', 'display: none;');
 		document.getElementById('page').setAttribute('style', 'display: none;');
 		document.getElementById('privacy').setAttribute('style', 'display: block;');
 	}
@@ -119,6 +116,7 @@ function changePosition(pos) {
 	}
 
 }
+
 
 
 
