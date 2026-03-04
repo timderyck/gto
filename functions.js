@@ -53,7 +53,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
-		updateLegend(scenario);
+		updateLegend('lj_firstin');
 	}
 	if (scenario == 'hj_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
@@ -68,7 +68,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
-		updateLegend(scenario);
+		updateLegend('hj_firstin');
 	}
 	if (scenario == 'co_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
@@ -83,7 +83,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
-		updateLegend(scenario);
+		updateLegend('co_firstin');
 	}
 	if (scenario == 'bu_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
@@ -98,7 +98,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: block;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
-		updateLegend(scenario);
+		updateLegend('bu_firstin');
 	}
 	if (scenario == 'sb_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
@@ -113,7 +113,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: block;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
-		updateLegend(scenario);
+		updateLegend('sb_firstin');
 	}
 	if (scenario == 'bb_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
@@ -128,7 +128,7 @@ function changeScenario(scenario) {
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: block;');
-		updateLegend(scenario);
+		updateLegend('bb_firstin');
 	}
 }
 
@@ -152,6 +152,7 @@ function updateLegend(scenario) {
 		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
 	}
 }
+
 
 
 
