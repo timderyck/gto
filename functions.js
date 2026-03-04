@@ -39,7 +39,7 @@ function goToPage(page) {
 
 
 // Navigation
-function changePosition(scenario) {
+function changeScenario(scenario) {
 	if (scenario == 'lj_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
@@ -170,6 +170,7 @@ function updateLegend(scenario) {
 		';
 	}
 }
+
 
 
 
