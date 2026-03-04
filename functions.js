@@ -39,98 +39,97 @@ function goToPage(page) {
 
 
 // Navigation
-function changePosition(pos) {
-	if (pos == 'lj') {
+function changePosition(scenario) {
+	if (scenario == 'lj_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: block;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
+		updateLegend(scenario);
 	}
-	if (pos == 'hj') {
+	if (scenario == 'hj_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: block;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
+		updateLegend(scenario);
 	}
-	if (pos == 'co') {
+	if (scenario == 'co_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_co').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: block;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
+		updateLegend(scenario);
 	}
-	if (pos == 'bu') {
+	if (scenario == 'bu_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: block;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
+		updateLegend(scenario);
 	}
-	if (pos == 'sb') {
+	if (scenario == 'sb_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #111318;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: block;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: none;');
+		updateLegend(scenario);
 	}
-	if (pos == 'bb') {
+	if (scenario == 'bb_firstin') {
 		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #111318;');
-		
 		document.getElementById('chart_lj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bu').setAttribute('style', 'display: none;');
 		document.getElementById('chart_sb').setAttribute('style', 'display: none;');
 		document.getElementById('chart_bb').setAttribute('style', 'display: block;');
+		updateLegend(scenario);
 	}
-
 }
 
 function updateLegend(scenario) {
@@ -171,6 +170,7 @@ function updateLegend(scenario) {
 		';
 	}
 }
+
 
 
 
