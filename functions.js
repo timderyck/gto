@@ -37,7 +37,7 @@ function goToPage(page) {
 	}
 }
 
-/*
+
 // Navigation
 function changeScenario(scenario) {
 	if (scenario == 'lj_firstin') {
@@ -131,7 +131,7 @@ function changeScenario(scenario) {
 		updateLegend(scenario);
 	}
 }
-
+/*
 function updateLegend(scenario) {
 	if (scenario == 'lj_firstin') {
 		document.getElementById('legend').innerHTML = '
@@ -172,6 +172,7 @@ function updateLegend(scenario) {
 }
 
 */
+
 
 
 
