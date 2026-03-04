@@ -37,7 +37,7 @@ function goToPage(page) {
 	}
 }
 
-
+/*
 // Navigation
 function changeScenario(scenario) {
 	if (scenario == 'lj_firstin') {
@@ -171,6 +171,7 @@ function updateLegend(scenario) {
 	}
 }
 
+*/
 
 
 
