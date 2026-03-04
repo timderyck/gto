@@ -49,13 +49,13 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #footer a:hover {text-decoration: underline;}
 #footer span {padding: 0 5px;}
 
-#contact {display: none; width: 426px; margin: 0 auto; color: #fff;}
-#terms {display: none; width: 426px; margin: 0 auto; color: #bbb;}
-#privacy {display: none; width: 426px; margin: 0 auto; color: #bbb;}
+#contact {display: none; width: 426px; margin: 0 auto; color: #ddd;}
+#terms {display: none; width: 426px; margin: 0 auto; color: #ddd;}
+#privacy {display: none; width: 426px; margin: 0 auto; color: #ddd;}
 .misc {}
 .misc .misc_back {height: 30px; padding: 20px 0 0 0; overflow: auto;}
 .misc .misc_back img {float: left; display: block; height: 20px; margin: 5px 10px 0 0;}
-.misc .misc_back a {float: left; display: block; height: 30px; line-height: 30px; color: #fff; text-decoration: none;}
+.misc .misc_back a {float: left; display: block; height: 30px; line-height: 30px; color: #ddd; text-decoration: none;}
 .misc .misc_back a:hover {text-decoration: underline;}
 .misc .misc_title {margin: 20px 0 20px 0; font-family: Montserrat; font-size: 28px;}
 .misc #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: /*#6452a9*/ #3d7cb8 solid 8px;}
@@ -79,102 +79,3 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
