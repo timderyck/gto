@@ -134,24 +134,25 @@ function changeScenario(scenario) {
 
 function updateLegend(scenario) {
 	if (scenario == 'lj_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'hj_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'co_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'bu_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'sb_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'bb_firstin') {
-		document.getElementById('legend').innerHTML = '<li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
 	}
 }
+
 
 
 
