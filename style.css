@@ -30,18 +30,18 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
 #chart .nomargin {margin: 0 0 3px 0;}
-#chart .pink {background: #772D8B; color: #fff;} /*de1c3f*/
+#chart .pink {background: #772d8b; color: #fff;} /*de1c3f*/
 #chart .blue {background: #427fc6; color: #fff;}
 #chart .green {background: #79a65a; color: #fff;}
-#chart .red {background: #9a2e2d; color: #fff;}
+#chart .red {background: #de1c3f; color: #fff;}
 #legend {width: 426px; margin: 20px 0 0 0;}
 #legend ul {list-style: none; margin: 0; padding: 0;}
 #legend ul li {margin: 5px 0; padding: 0; overflow: auto;}
 #legend ul li .legend_color {float: right; width: 20px; height: 20px; border-radius: 6px;}
-#legend ul li .pink {background: #de1c3f;}
+#legend ul li .pink {background: #772d8b;}
 #legend ul li .blue {background: #3d7cb8;}
 #legend ul li .green {background: #79a65a;}
-#legend ul li .red {background: #9a2e2d;}
+#legend ul li .red {background: #de1c3f;}
 #legend ul li .grey {background: #323741;}
 #legend ul li .legend_description {float: right; width: calc(100% - 28px); margin: 0 8px 0 0; line-height: 30px; font-size: 12px; text-align: right;}
 #footer {margin: 40px 0 50px 0; font-size: 12px; text-align: center;}
@@ -79,4 +79,5 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
