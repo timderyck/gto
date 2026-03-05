@@ -30,7 +30,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
 #chart .nomargin {margin: 0 0 3px 0;}
-#chart .pink {background: #de1c3f; color: #fff;} /*de1c3f*/
+#chart .pink {background: #772D8B; color: #fff;} /*de1c3f*/
 #chart .blue {background: #427fc6; color: #fff;}
 #chart .green {background: #79a65a; color: #fff;}
 #chart .red {background: #9a2e2d; color: #fff;}
@@ -79,3 +79,4 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
