@@ -12,8 +12,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #splash #splash_inner #splash_logo img {width: 36%; margin: 0 0 0 32%;}
 #splash #splash_inner #splash_text {position: absolute; top: 50%; left: 0; width: 100%;}
 #splash #splash_inner #splash_text #splash_text_title {font-family: Montserrat; font-size: 42px; color: #f2f2f2; text-align: center;}
-#splash #splash_inner #splash_text #splash_text_tagline {margin: 15px 0 0 0; font-size: 16px; color: #d2d2d2 /*#9eaabd*/; line-height: 22px; text-align: center;}
-#splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #795af1 /*#256aff*/; font-size: 18px; color: #f2f2f2; text-decoration: none; text-align: center; border-radius: 8px;}
+#splash #splash_inner #splash_text #splash_text_tagline {margin: 15px 0 0 0; font-size: 16px; color: #9eaabd; line-height: 22px; text-align: center;}
+#splash #splash_inner a {position: absolute; bottom: 25%; left: 0; display: block; width: 80%; height: 50px; line-height: 50px; margin: 0 10%; background: #256aff; font-size: 18px; color: #f2f2f2; text-decoration: none; text-align: center; border-radius: 8px;}
 
 #page {display: none; width: 426px; margin: 0 auto; padding: 20px 0 0 0;}
 #positions {padding: 10px 0 0 0; overflow: auto;}
@@ -79,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
