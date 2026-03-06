@@ -27,7 +27,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #scenarios a#scenario_active {background: #111318; color: #fff;}
 #chart {overflow: auto; width: 426px; margin: 30px 0 0 0;}
 #chart_hj_firstin, #chart_co_firstin, #chart_bu_firstin, #chart_sb_firstin, #chart_bb_firstin {display: none;}
-#chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #323741; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
+#chart .box {float: left; width: 30px; height: 30px; line-height: 30px; background: #14182c /*#323741*/; font-size: 12px; color: #666; text-align: center; border-radius: 6px;}
 #chart .margin {margin: 0 3px 3px 0;}
 #chart .nomargin {margin: 0 0 3px 0;}
 #chart .pink {background: #772d8b; color: #fff;} /*de1c3f*/
@@ -79,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
