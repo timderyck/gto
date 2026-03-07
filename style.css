@@ -55,7 +55,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 .misc .misc_back a {float: left; display: block; height: 30px; line-height: 30px; color: #ddd; text-decoration: none;}
 .misc .misc_back a:hover {text-decoration: underline;}
 .misc .misc_title {margin: 20px 0 20px 0; font-family: Montserrat; font-size: 28px;}
-.misc #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: /*#6452a9*/ #3d7cb8 solid 8px;}
+.misc #contact_email {margin: 25px 0 0 0; padding: 15px 20px; background: #1b1c20; border-left: #3d4470 solid 8px;}
 .misc p {margin: 10px 0; line-height: 22px;}
 .misc p.paragraph_title {margin: 20px 0 10px 0; font-size: 16px; font-weight: bold;}
 .misc ul {}
@@ -76,6 +76,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
