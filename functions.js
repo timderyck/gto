@@ -416,14 +416,14 @@ function changeScenario(scenario) {
 		document.getElementById('k8o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('q8o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('j8o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
-		document.getElementById('t8o').setAttribute('style', 'background: #f9d175; color: #272a42;');
-		document.getElementById('98o').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('t8o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('98o').setAttribute('style', 'background: #f2f2f2; color: #f2f2f2;');
 		document.getElementById('88').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('87s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('86s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('85s').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('85s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a7o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('k7o').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('k7o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('77').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('76s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('75s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -435,8 +435,8 @@ function changeScenario(scenario) {
 		document.getElementById('a5o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('55').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('54s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('53s').setAttribute('style', 'background: #f9d175; color: #272a42;');
-		document.getElementById('a4o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('53s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a4o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('44').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a3o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('33').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -659,6 +659,7 @@ function resetChart() {
 	document.getElementById('32o').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 	document.getElementById('22').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 }
+
 
 
 
