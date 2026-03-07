@@ -327,7 +327,7 @@ function changeScenario(scenario) {
 		document.getElementById('a4o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('44').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a3o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('33').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('33').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a2o').setAttribute('style', 'background: #f9d175; color: #272a42;');
 		document.getElementById('22').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		updateLegend('bu_firstin');
@@ -557,6 +557,7 @@ function resetChart() {
 	document.getElementById('32o').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 	document.getElementById('22').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 }
+
 
 
 
