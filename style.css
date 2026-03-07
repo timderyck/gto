@@ -18,9 +18,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #page {display: none; width: 428px; margin: 0 auto; padding: 20px 0 0 0;}
 #positions {padding: 10px 0 0 0; overflow: auto;}
 /*#positions a {display: block; float: left; width: 15%; height: 38px; line-height: 38px; background: #242841; color: #fff; text-decoration: none; text-align: center;}*/
-#positions a {display: block; float: left; width: 70.5px; height: 38px; line-height: 38px; background: #242841; color: #fff; text-decoration: none; text-align: center;}
+#positions a {display: block; float: left; width: 67.16px; height: 38px; line-height: 38px; background: #242841; color: #fff; text-decoration: none; text-align: center;}
 #positions a#position_lj {background: #3d4470; color: #fff;}
-#positions a.filter_margin {margin: 0 1px 0 0;}
+#positions a.filter_margin {margin: 0 5px 0 0;}
 #scenarios {overflow: auto; padding: 15px 0 0 0;}
 #scenarios a {display: block; float: left; width: calc(50% - 8px); height: 28px; line-height: 28px; background: #242841; font-size: 12px; color: #fff; text-decoration: none; text-align: center;}
 #scenarios a.scenario_left {margin: 5px 16px 0 0;}
@@ -80,6 +80,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
