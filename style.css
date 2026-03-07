@@ -17,14 +17,14 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 
 #page {display: none; width: 428px; margin: 0 auto; padding: 20px 0 0 0;}
 #positions {padding: 10px 0 0 0; overflow: auto;}
-#positions a {display: block; float: left; width: 15%; height: 38px; line-height: 38px; background: #242841; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
-#positions a#position_lj {background: #111318; color: #fff;}
+#positions a {display: block; float: left; width: 15%; height: 38px; line-height: 38px; background: #242841; color: #fff; text-decoration: none; text-align: center;}
+#positions a#position_lj {background: #3d4470; color: #fff;}
 #positions a.filter_margin {margin: 0 2% 0 0;}
 #scenarios {overflow: auto; padding: 15px 0 0 0;}
-#scenarios a {display: block; float: left; width: calc(50% - 8px); height: 28px; line-height: 28px; background: #242841; font-size: 12px; color: #fff; text-decoration: none; text-align: center; border-radius: 6px;}
+#scenarios a {display: block; float: left; width: calc(50% - 8px); height: 28px; line-height: 28px; background: #242841; font-size: 12px; color: #fff; text-decoration: none; text-align: center;}
 #scenarios a.scenario_left {margin: 5px 16px 0 0;}
 #scenarios a.scenario_right {margin: 5px 0 0 0;}
-#scenarios a#scenario_active {background: #111318; color: #fff;}
+#scenarios a#scenario_active {background: #3d4470; color: #fff;}
 #chart {overflow: auto; width: 428px; margin: 30px 0 0 0;}
 #chart_hj_firstin, #chart_co_firstin, #chart_bu_firstin, #chart_sb_firstin, #chart_bb_firstin {display: none;}
 #chart .box {float: left; width: 32px; height: 32px; line-height: 30px; background: #3d4470 /*#323741*/; font-size: 12px; color: #d2d2d2; text-align: center;}
@@ -79,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
