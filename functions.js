@@ -48,9 +48,9 @@ function changeScenario(scenario) {
 		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
 		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		resetChart();
-		document.getElementById('aa').setAttribute('style', 'background: #dd1c3f;');
-		document.getElementById('aks').setAttribute('style', 'background: #dd1c3f;');
-		document.getElementById('aqs').setAttribute('style', 'background: #dd1c3f;');
+		document.getElementById('aa').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('aks').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('aqs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		updateLegend('lj_firstin');
 	}
 	if (scenario == 'hj_firstin') {
@@ -319,6 +319,7 @@ function resetChart() {
 	document.getElementById('aa').setAttribute('style', 'background: #3d4470; color: #fff;');
 	document.getElementById('aa').setAttribute('style', 'background: #3d4470; color: #fff;');
 }
+
 
 
 
