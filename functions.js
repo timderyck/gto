@@ -51,6 +51,26 @@ function changeScenario(scenario) {
 		document.getElementById('aa').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('aks').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('aqs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('ajs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('ats').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a9s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a8s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a7s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a6s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a5s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a4s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a3s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('a2s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('ako').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('kk').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('kqs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('kjs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('kts').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('k9s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('k8s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('k7s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('k6s').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('k5s').setAttribute('style', 'background: #f9d175; color: #272a42;');
 		updateLegend('lj_firstin');
 	}
 	if (scenario == 'hj_firstin') {
@@ -102,19 +122,19 @@ function changeScenario(scenario) {
 
 function updateLegend(scenario) {
 	if (scenario == 'lj_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'hj_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'co_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'bu_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'sb_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color pink"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color blue"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'bb_firstin') {
 		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
@@ -305,6 +325,7 @@ function resetChart() {
 	document.getElementById('32o').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 	document.getElementById('22').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 }
+
 
 
 
