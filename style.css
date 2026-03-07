@@ -38,8 +38,8 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #legend ul {list-style: none; margin: 0; padding: 0;}
 #legend ul li {margin: 5px 0; padding: 0; overflow: auto;}
 #legend ul li .legend_color {float: right; width: 22px; height: 22px;}
-#legend ul li .pink {background: #772d8b;}
-#legend ul li .blue {background: #3d7cb8;}
+#legend ul li .pink {background: #dd1c3f; color: #f2f2f2;}
+#legend ul li .blue {background: #f9d175; color: #272a42;}
 #legend ul li .green {background: #79a65a;}
 #legend ul li .red {background: #de1c3f;}
 #legend ul li .grey {background: #323741;}
@@ -79,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
