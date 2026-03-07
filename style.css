@@ -30,10 +30,9 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #chart .box {float: left; width: 32px; height: 32px; line-height: 30px; background: #3d4470 /*#323741*/; font-size: 12px; color: #d2d2d2; text-align: center;}
 #chart .margin {margin: 0 1px 1px 0;}
 #chart .nomargin {margin: 0 0 1px 0;}
-#chart .pink {background: #dd1c3f; color: #f2f2f2;} /*de1c3f*/
-#chart .blue {background: #f9d175; color: #272a42;}
-#chart .green {background: #79a65a; color: #fff;}
-#chart .red {background: #de1c3f; color: #fff;}
+#chart .red {background: #dd1c3f; color: #f2f2f2;}
+#chart .yellow {background: #f9d175; color: #272a42;}
+#chart .green {background: #34a164; color: #f2f2f2;}
 #legend {width: 428px; margin: 20px 0 0 0;}
 #legend ul {list-style: none; margin: 0; padding: 0;}
 #legend ul li {margin: 5px 0; padding: 0; overflow: auto;}
@@ -77,6 +76,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
