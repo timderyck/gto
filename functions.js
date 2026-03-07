@@ -412,12 +412,13 @@ function changeScenario(scenario) {
 		document.getElementById('98s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('97s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('96s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('95s').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('a8o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('k8o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('q8o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('j8o').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('t8o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('98o').setAttribute('style', 'background: #f2f2f2; color: #f2f2f2;');
+		document.getElementById('98o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('88').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('87s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('86s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -659,6 +660,7 @@ function resetChart() {
 	document.getElementById('32o').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 	document.getElementById('22').setAttribute('style', 'background: #3d4470; color: #d2d2d2;');
 }
+
 
 
 
