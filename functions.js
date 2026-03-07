@@ -41,12 +41,12 @@ function goToPage(page) {
 // Navigation
 function changeScenario(scenario) {
 	if (scenario == 'lj_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #111318;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #3d4470;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_co').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: block;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: none;');
@@ -56,12 +56,12 @@ function changeScenario(scenario) {
 		updateLegend('lj_firstin');
 	}
 	if (scenario == 'hj_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #111318;');
-		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #3d4470;');
+		document.getElementById('position_co').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: block;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: none;');
@@ -71,12 +71,12 @@ function changeScenario(scenario) {
 		updateLegend('hj_firstin');
 	}
 	if (scenario == 'co_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_co').setAttribute('style', 'background: #111318;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_co').setAttribute('style', 'background: #3d4470;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: block;');
@@ -86,12 +86,12 @@ function changeScenario(scenario) {
 		updateLegend('co_firstin');
 	}
 	if (scenario == 'bu_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #111318;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_co').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #3d4470;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: none;');
@@ -101,12 +101,12 @@ function changeScenario(scenario) {
 		updateLegend('bu_firstin');
 	}
 	if (scenario == 'sb_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #111318;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #29313d;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_co').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #3d4470;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #242841;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: none;');
@@ -116,12 +116,12 @@ function changeScenario(scenario) {
 		updateLegend('sb_firstin');
 	}
 	if (scenario == 'bb_firstin') {
-		document.getElementById('position_lj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_hj').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_co').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bu').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_sb').setAttribute('style', 'background: #29313d;');
-		document.getElementById('position_bb').setAttribute('style', 'background: #111318;');
+		document.getElementById('position_lj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_hj').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_co').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bu').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_sb').setAttribute('style', 'background: #242841;');
+		document.getElementById('position_bb').setAttribute('style', 'background: #3d4470;');
 		document.getElementById('chart_lj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_hj_firstin').setAttribute('style', 'display: none;');
 		document.getElementById('chart_co_firstin').setAttribute('style', 'display: none;');
@@ -152,6 +152,7 @@ function updateLegend(scenario) {
 		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
 	}
 }
+
 
 
 
