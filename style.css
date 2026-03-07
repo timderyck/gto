@@ -37,13 +37,13 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 #legend {width: 428px; margin: 20px 0 0 0;}
 #legend ul {list-style: none; margin: 0; padding: 0;}
 #legend ul li {margin: 5px 0; padding: 0; overflow: auto;}
-#legend ul li .legend_color {float: right; width: 20px; height: 20px; border-radius: 6px;}
+#legend ul li .legend_color {float: right; width: 22px; height: 22px;}
 #legend ul li .pink {background: #772d8b;}
 #legend ul li .blue {background: #3d7cb8;}
 #legend ul li .green {background: #79a65a;}
 #legend ul li .red {background: #de1c3f;}
 #legend ul li .grey {background: #323741;}
-#legend ul li .legend_description {float: right; width: calc(100% - 28px); margin: 0 8px 0 0; line-height: 30px; font-size: 12px; text-align: right;}
+#legend ul li .legend_description {float: right; width: calc(100% - 30px); margin: 0 8px 0 0; line-height: 22px; font-size: 12px; text-align: right;}
 #footer {margin: 40px 0 50px 0; font-size: 12px; text-align: center;}
 #footer a {color: #969696; text-decoration: none;}
 #footer a:hover {text-decoration: underline;}
@@ -79,6 +79,7 @@ input, textarea, select {font-family: Arial; outline: none; border-radius: 0; -w
 	#terms {width: 374px;}
 	#privacy {width: 374px;}
 }
+
 
 
 
