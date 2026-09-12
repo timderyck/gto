@@ -78,12 +78,12 @@ function changeScenario(scenario) {
 		document.getElementById('qts').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('q9s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('ajo').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('kjo').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('kjo').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('jj').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('jts').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('ato').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('ato').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
+		document.getElementById('kto').setAttribute('style', 'background: #f9d175; color: #272a42;');
 		document.getElementById('tt').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('t9s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('99').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('88').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('77').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
