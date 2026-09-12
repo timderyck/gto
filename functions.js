@@ -387,7 +387,7 @@ function changeScenario(scenario) {
 		document.getElementById('t8s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('t7s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('t6s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('t5s').setAttribute('style', 'background: #34a164; color: #f2f2f2');
+		document.getElementById('t5s').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('a9o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('k9o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('q9o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -411,7 +411,7 @@ function changeScenario(scenario) {
 		document.getElementById('77').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('76s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('75s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
-		document.getElementById('74s').setAttribute('style', 'background: #34a164; color: #f2f2f2;
+		document.getElementById('74s').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
 		document.getElementById('a6o').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('66').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('65s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -501,7 +501,7 @@ function updateLegend(scenario) {
 		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
 	}
 	if (scenario == 'sb_firstin') {
-		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color yellow"></div><div class="legend_description">Raise optional</div></li><ul>';
+		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">Raise 3x BB</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
 	}
 	if (scenario == 'bb_firstin') {
 		document.getElementById('legend').innerHTML = '<ul><li><div class="legend_color red"></div><div class="legend_description">3Bet (re-raise)</div></li><li><div class="legend_color green"></div><div class="legend_description">Call</div></li><ul>';
