@@ -70,7 +70,7 @@ function changeScenario(scenario) {
 		document.getElementById('k8s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('k7s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('k6s').setAttribute('style', 'background: #f9d175; color: #272a42;');
-		document.getElementById('k5s').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('k5s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('aqo').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('kqo').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('qq').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
@@ -88,6 +88,7 @@ function changeScenario(scenario) {
 		document.getElementById('88').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('77').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('66').setAttribute('style', 'background: #f9d175; color: #272a42;');
+		document.getElementById('65s').setAttribute('style', 'background: #f9d175; color: #272a42;');
 		updateLegend('lj_firstin');
 	}
 	if (scenario == 'hj_firstin') {
