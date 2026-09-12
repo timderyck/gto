@@ -352,7 +352,7 @@ function changeScenario(scenario) {
 		document.getElementById('a5s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a4s').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('a3s').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
-		document.getElementById('a2s').setAttribute('style', 'background: #34a164; color: #f2f2f2;');
+		document.getElementById('a2s').setAttribute('style', 'background: #34a164; color: #f2f2f2;'); // background: #34a164; color: #f2f2f2;
 		document.getElementById('ako').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('kk').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
 		document.getElementById('kqs').setAttribute('style', 'background: #dd1c3f; color: #f2f2f2;');
